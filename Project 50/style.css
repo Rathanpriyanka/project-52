@@ -1,0 +1,85 @@
+h1{
+ color:white;
+ padding:30px
+
+}
+
+.menu {
+   display : flex;
+   justify-content: space-between;
+   background-color : black;
+   font-size: 20px;
+   font-family : sans-serif;
+   color:white;
+  
+   font-weight:400;
+   color:white;
+
+}
+
+body {
+margin:0px;
+background-color:whitesmoke;
+
+}
+.header{
+
+    background-color:grey;
+}
+
+.bodyimg {
+
+    background-color:grey;
+    border:2px solid black;
+    border-radius:50px;
+    text-align:center;
+    justify-content:  flex-start;
+}
+
+.source {
+background-color:white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+   
+
+}
+.item{
+    position:relative;
+    
+    }
+    .item p{
+    
+    position:absolute;
+    top:50%;
+    left:45%;
+    transform:translate(-40%,40%);
+    opacity:0;
+    
+    }
+    .item:hover p{
+    opacity:1;
+    
+    
+    }
+    .item:hover img{
+    opacity:1;
+    
+    }
+    
+    
+    a:link{
+    
+    color:white;
+    
+    
+    }
+    
+    a:visited{
+    
+    color:purple;
+    
+    }
+    
+
+
